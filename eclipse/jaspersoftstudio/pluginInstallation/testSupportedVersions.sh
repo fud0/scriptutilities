@@ -23,6 +23,8 @@
 ECLIPSES_ROOT_FOLDER=/Users/mrabbi/Development/JaspersoftStudio/tests/pluginInstall/
 # Base location for the Eclipse installation that will be used for P2 operations
 BASE_ECLIPSE_FOLDER=/Users/mrabbi/Development/JaspersoftStudio/tests/eclipse
+# Base location for script(s) execution
+BASE_SCRIPTS_LOCATION=$(pwd)/
 # Update sites
 JSS_UPDATE_SITE=http://jasperstudio.sourceforge.net/updates/
 XTEXT_UPDATE_SITE=http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases/
@@ -30,8 +32,8 @@ ORBIT_UPDATE_SITE=http://download.eclipse.org/tools/orbit/downloads/drops/R20130
 NEBULA_UPDATE_SITE=http://download.eclipse.org/technology/nebula/snapshot
 
 # Test the Jaspersoft Studio plugin installation on different Eclipse versions
-source eclipse36xInstallation.sh
-source eclipse37xInstallation.sh
-source eclipse38xInstallation.sh
-source eclipse42xInstallation.sh
-source eclipse43xInstallation.sh
+source $BASE_SCRIPTS_LOCATION/eclipse36xInstallation.sh
+source $BASE_SCRIPTS_LOCATION/eclipse37xInstallation.sh
+source $BASE_SCRIPTS_LOCATION/eclipse38xInstallation.sh
+source $BASE_SCRIPTS_LOCATION/eclipse42xInstallation.sh
+source $BASE_SCRIPTS_LOCATION/eclipse43xInstallation.sh
