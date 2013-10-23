@@ -40,7 +40,7 @@ then
 fi
 if [ -n "$2" ]; then DESTINATION_METADATA_REPOSITORY=$2; fi
 if [ -n "$3" ]; then DESTINATION_ARTIFACT_REPOSITORY=$3; fi
-if [ -n "$ECLIPSE_INSTALL_LOCATION" ]; then ECLIPSE_CURR_PATH=$4; fi
+if [ -n "$4" ]; then ECLIPSE_CURR_PATH=$4; fi
 
 # Launch P2 Command
 $ECLIPSE_CURR_PATH/eclipse -debug -consolelog -nosplash -verbose \
