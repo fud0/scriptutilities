@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #-------------------------------------------------------------------------------
-# Copyright (C) 2010 - 2013 Buzzcoders.com. All rights reserved.
+# Copyright (C) 2013 Buzzcoders.com. All rights reserved.
 # http://www.buzzcoders.com
 # 
 # This program and the accompanying materials
